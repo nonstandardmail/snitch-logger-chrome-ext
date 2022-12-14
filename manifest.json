@@ -1,0 +1,10 @@
+{
+  "name": "Snitch Logger",
+  "version": "1.2",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "snitch-logger.js"
+  },
+  "host_permissions": ["*://*/*"],
+  "permissions": ["webRequest"]
+}
